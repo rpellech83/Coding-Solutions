@@ -1,0 +1,6 @@
+--SQL code issue commonly faced is the divide by zero
+--at work we had an issue where dividing by null crashed ssrs
+--the below code handles that
+ISNULL(num_qty/NULLIF(denom_qty, 0),0)
+--nullif is the common way to handle divide by zero
+--isnull bypasses the division issue by making final value zero
