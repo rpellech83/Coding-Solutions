@@ -1,0 +1,25 @@
+Love = "Ali, I love you now more than ever. Thank you for always being such an amazing and supportive wife."
+Love1 = "You're my best friend and I don't know where I'd be without you."
+Love2 = "I'd probably be even more lost and stumbling around blindly, that's for sure."
+Love3 = "When I forget my cane, you're my guide."
+Love4 = "When I can't see, you're my eyes."
+Love5 = "You make me a better person and make me want to be even better."
+Love6 = "Love, Bobby"
+
+"""
+If i had to sum this all up in a neat little bow,
+You can do so by hitting the Green Play button below.
+"""
+
+luv = Love2[0]
+luv1 = Love[4]
+luv2 = Love6[:4]
+luv3 = Love1[:3]
+luv4 = Love[50:56]
+print(luv)
+print(luv1)
+print(luv2)
+print(luv1)
+print(luv3)
+print(luv1)
+print(luv4)
